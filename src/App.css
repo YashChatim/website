@@ -1,0 +1,310 @@
+/* ------------------------------- App page ------------------------------------- */
+.header-color {
+  background: #ad5389; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #3c1053,
+    #ad5389
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #3c1053,
+    #ad5389
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.header-color a {
+  text-decoration: none;
+  color: white;
+}
+
+.header-color a:hover {
+  color: plum;
+}
+
+.resume-container {
+  width: 20%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.resume-container a {
+  font-size: 17px;
+}
+
+/* ------------------------------------------------------------------------------- */
+
+/* ------------------------------ Landing page ----------------------------------- */
+
+.landing-page {
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+}
+
+.landing-grid {
+  background-image: url(./background.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.navigation-buttons {
+  float: left;
+  margin: 26% 0 0 45%;
+}
+
+.about, .projects, .contact {
+  font-size: 400%;
+  margin: 115% 0;
+  color: lightblue;
+}
+
+.about:hover, .projects:hover, .contact:hover {
+  color: black;
+}
+
+.banner-text {
+  width: 60%;
+  margin: 5% 10% auto auto;
+  border-radius: 8px;
+  color: lightcyan;
+  transform: translateY(90%);
+}
+
+.banner-text h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 80px;
+  text-align: right;
+  margin: 0;
+  line-height: 1;
+}
+
+.banner-text h2 {
+  font-size: 33px;
+  background-color: rgba(224,255,255,0.4);;
+  color: black;
+  margin: 0;
+  line-height: 1;
+}
+
+.banner-text p {
+  font-size: 15px;
+  padding: 1em;
+  margin: 0;
+}
+
+.social-links, .contact-info {
+  float: center;
+}
+
+.social-links i, .contact-info i {
+  color: lightcyan;
+  font-size: 3em;
+  padding: 0 8px 0 35px;
+  margin-top: 30px;
+}
+
+.social-links i:hover, .contact-info i:hover {
+  color: black;
+}
+
+.contact-info {
+  font-size: 20px;
+}
+
+.contact-info i {
+  font-size: 30px;
+}
+
+/* ------------------------------------------------------------------------------- */
+
+/* ------------------------------- About page ------------------------------------ */
+.about-body {
+  background-image: url(./realdiamond.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(81, 144, 238);
+  background-position: right;
+  margin: auto;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  padding: 0;
+  color: white;
+}
+
+.about-body h3, .about-body h4 {
+  margin: 0;
+}
+
+.about-grid {
+  text-align: center;
+  justify-content: center;
+}
+
+.profile-pic {
+  height: 100%;
+  width: 100%;
+  border-radius: 2%;
+}
+
+.statement-container {
+  padding: 20px 15px;
+  background-color: rgb(155, 84, 149);
+  border-radius: 2%;
+}
+
+.skills-container {
+  margin: auto;
+}
+
+.frontend-tech  {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.back-tech {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.other-skills {
+  margin-top: 7%;
+  padding: 0 40% 0 0;
+}
+
+.other-tech {
+  display: flex;
+  justify-content: center;
+  padding-top: 1%;
+}
+
+.other-tech .tech-row {
+  margin: 0 0.5%;
+}
+
+.tech-row {
+  margin: 3% 0;
+}
+
+.tech-row img {
+  height: 50px;
+  width: 50px;
+  border-radius: 10%;
+}
+
+
+/* ------------------------------------------------------------------------------- */
+
+/* ------------------------------ Project page ----------------------------------- */
+
+.mdl-js-layout {
+  background-color: lightblue;
+}
+
+.mdl-js-tabs {
+  background-color: white;
+}
+
+.mdl-js-tabs .mdl-tabs__tab-bar {
+  border-bottom: none;
+}
+
+.projects-grid, .projects-grid h3 {
+  display: flex;
+  margin: 25px 0;
+  color: white;
+  font-weight: bold;
+}
+
+.projects-grid img {
+  width: 400px;
+  height: 250px;
+  padding: 0;
+  border-radius: 2%;
+}
+
+.csharp img {
+  width: 100%;
+  height: 100%;
+}
+
+.csharp h3, .csharp p {
+  padding-left: 3%;
+} 
+
+.csharp h3 {
+  margin-top: -57%;
+}
+
+a.mdl-button.mdl-button--colored {
+  color: rgb(84, 153, 177);
+  font-weight: bold;
+  font-size: 25px;
+  border: 1.5px dashed white;
+}
+
+.colorgame-panel, .todolist-panel, .movieapp-panel, .restblogapp-panel, .yelpcamp-panel, .laserdefender-panel, .blockbreaker-panel, .bowlingstrike-panel {
+  border-radius: 2%;
+}
+
+.colorgame-panel {
+  background-color: rgb(243, 220, 223);
+}
+
+.todolist-panel {
+  background-color: rgb(225, 177, 238);
+}
+
+.movieapp-panel {
+  background-color: rgb(188, 179, 190);
+}
+
+.restblogapp-panel {
+  background-color: rgb(129, 173, 202);
+}
+
+.yelpcamp-panel {
+  background-color: rgb(221, 193, 142);
+}
+
+.laserdefender-panel {
+  background-color: rgb(221, 193, 142);
+}
+
+.blockbreaker-panel {
+  background-color: rgb(221, 193, 142);
+}
+
+.bowlingstrike-panel {
+  background-color: rgb(221, 193, 142);
+}
+
+.laserdefender-panel a.mdl-button.mdl-button--colored, .blockbreaker-panel a.mdl-button.mdl-button--colored {
+  margin: -10% 0 0 72%;
+}
+
+.projects-container h4 {
+  text-align: center;
+}
+
+.projects-container h4 a {
+  color: rgb(111, 111, 250);
+}
+
+.projects-container h4 a:hover {
+  color: rgb(57, 57, 185);
+}
+
+/* ------------------------------------------------------------------------------- */
+
+
