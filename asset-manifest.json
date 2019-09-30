@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/website/static/css/main.51e64a8e.chunk.css",
+    "main.js": "/website/static/js/main.0c676af8.chunk.js",
+    "main.js.map": "/website/static/js/main.0c676af8.chunk.js.map",
+    "runtime~main.js": "/website/static/js/runtime~main.de462641.js",
+    "runtime~main.js.map": "/website/static/js/runtime~main.de462641.js.map",
+    "static/css/2.60a6b8e0.chunk.css": "/website/static/css/2.60a6b8e0.chunk.css",
+    "static/js/2.e84b266f.chunk.js": "/website/static/js/2.e84b266f.chunk.js",
+    "static/js/2.e84b266f.chunk.js.map": "/website/static/js/2.e84b266f.chunk.js.map",
+    "index.html": "/website/index.html",
+    "precache-manifest.fe62eb6717194ff812007f1c436af475.js": "/website/precache-manifest.fe62eb6717194ff812007f1c436af475.js",
+    "service-worker.js": "/website/service-worker.js",
+    "static/css/2.60a6b8e0.chunk.css.map": "/website/static/css/2.60a6b8e0.chunk.css.map",
+    "static/css/main.51e64a8e.chunk.css.map": "/website/static/css/main.51e64a8e.chunk.css.map",
+    "static/media/App.css": "/website/static/media/realdiamond.fb7ed965.JPG",
+    "static/media/cv.pdf": "/website/static/media/cv.ce66d1b9.pdf"
+  }
+}
