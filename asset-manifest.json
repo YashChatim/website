@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/website/homepage/static/css/main.13b9a4db.chunk.css",
-    "main.js": "/website/homepage/static/js/main.e86a3a62.chunk.js",
-    "main.js.map": "/website/homepage/static/js/main.e86a3a62.chunk.js.map",
-    "runtime~main.js": "/website/homepage/static/js/runtime~main.db179e0f.js",
-    "runtime~main.js.map": "/website/homepage/static/js/runtime~main.db179e0f.js.map",
-    "static/css/2.60a6b8e0.chunk.css": "/website/homepage/static/css/2.60a6b8e0.chunk.css",
-    "static/js/2.e84b266f.chunk.js": "/website/homepage/static/js/2.e84b266f.chunk.js",
-    "static/js/2.e84b266f.chunk.js.map": "/website/homepage/static/js/2.e84b266f.chunk.js.map",
-    "index.html": "/website/homepage/index.html",
-    "precache-manifest.f2164bc9baa151a5c3e008bbe8e46775.js": "/website/homepage/precache-manifest.f2164bc9baa151a5c3e008bbe8e46775.js",
-    "service-worker.js": "/website/homepage/service-worker.js",
-    "static/css/2.60a6b8e0.chunk.css.map": "/website/homepage/static/css/2.60a6b8e0.chunk.css.map",
-    "static/css/main.13b9a4db.chunk.css.map": "/website/homepage/static/css/main.13b9a4db.chunk.css.map",
-    "static/media/App.css": "/website/homepage/static/media/realdiamond.fb7ed965.JPG",
-    "static/media/cv.pdf": "/website/homepage/static/media/cv.ce66d1b9.pdf"
+    "main.css": "/website/static/css/main.51e64a8e.chunk.css",
+    "main.js": "/website/static/js/main.0c676af8.chunk.js",
+    "main.js.map": "/website/static/js/main.0c676af8.chunk.js.map",
+    "runtime~main.js": "/website/static/js/runtime~main.de462641.js",
+    "runtime~main.js.map": "/website/static/js/runtime~main.de462641.js.map",
+    "static/css/2.60a6b8e0.chunk.css": "/website/static/css/2.60a6b8e0.chunk.css",
+    "static/js/2.e84b266f.chunk.js": "/website/static/js/2.e84b266f.chunk.js",
+    "static/js/2.e84b266f.chunk.js.map": "/website/static/js/2.e84b266f.chunk.js.map",
+    "index.html": "/website/index.html",
+    "precache-manifest.fe62eb6717194ff812007f1c436af475.js": "/website/precache-manifest.fe62eb6717194ff812007f1c436af475.js",
+    "service-worker.js": "/website/service-worker.js",
+    "static/css/2.60a6b8e0.chunk.css.map": "/website/static/css/2.60a6b8e0.chunk.css.map",
+    "static/css/main.51e64a8e.chunk.css.map": "/website/static/css/main.51e64a8e.chunk.css.map",
+    "static/media/App.css": "/website/static/media/realdiamond.fb7ed965.JPG",
+    "static/media/cv.pdf": "/website/static/media/cv.ce66d1b9.pdf"
   }
 }
