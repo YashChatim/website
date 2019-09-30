@@ -10,13 +10,13 @@ class Landing extends Component {
           <Cell col={4}>
             <div className="navigation-buttons">
               <div className="about-button">
-                <a href="http://localhost:3000/aboutme">
+                <a href="https://dry-thicket-44569.herokuapp.com/aboutme">
                   <i class="about fa fa-user" aria-hidden="true"></i>
                 </a>
               </div>
 
               <div className="projects-button">
-                <a href="http://localhost:3000/projects">
+                <a href="https://dry-thicket-44569.herokuapp.com/projects">
                   <i class="projects fa fa-laptop" aria-hidden="true"></i>
                 </a>
               </div>
