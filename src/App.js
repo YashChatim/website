@@ -23,8 +23,9 @@ class App extends Component {
           <Drawer>
             {/* Drawer - provide access to destinations in the app */}
             <Navigation className="navbar">
-              <Link className="nav-1" to="/aboutme">About</Link>
-              <Link className="nav-2" to="/projects">Projects</Link>
+              <Link className="nav-1" to="/">Home</Link>
+              <Link className="nav-2" to="/aboutme">About</Link>
+              <Link className="nav-3" to="/projects">Projects</Link>
               {/* Link - allow to navigate around the app by rendering fully accessible anchor tag with proper href */}
             </Navigation>
           </Drawer>
