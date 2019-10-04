@@ -26,6 +26,7 @@ class App extends Component {
               <Link className="nav-1" to="/">Home</Link>
               <Link className="nav-2" to="/aboutme">About</Link>
               <Link className="nav-3" to="/projects">Projects</Link>
+              <a href="mailto:chatim.yash@yahoo.co.uk">Contact</a>
               {/* Link - allow to navigate around the app by rendering fully accessible anchor tag with proper href */}
             </Navigation>
           </Drawer>
