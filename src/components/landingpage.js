@@ -7,7 +7,7 @@ class Landing extends Component {
       <div className="landing-page">
         <Grid className="landing-grid">
           {/* Grid - custom component to use to render the grid, Cell - set the column size */}
-          <Cell col={4}>
+          <Cell col={4} className="mdl-cell--1-col-tablet">
             <div className="navigation-buttons">
               <div className="about-button">
                 <a href="https://dry-thicket-44569.herokuapp.com/aboutme">
@@ -28,7 +28,7 @@ class Landing extends Component {
               </div>
             </div>
           </Cell>
-          <Cell col={8}>
+          <Cell col={8} className="mdl-cell--6-col-tablet">
             <div className="banner-text">
               <h1>YASH CHATIM</h1>
               <h2>D E V E L O P E R  /  P R O G R A M M E R</h2>
