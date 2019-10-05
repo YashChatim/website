@@ -36,6 +36,10 @@
 
 /* ------------------------------ Landing page ----------------------------------- */
 
+.mdl-layout__drawer-button {
+  visibility: hidden;
+}
+
 .landing-page {
   width: 100%;
   margin: 0 auto;
@@ -339,6 +343,10 @@ a.mdl-button.mdl-button--colored {
 
 
 @media (max-width: 1024px) {
+
+  .mdl-layout__drawer-button {
+    visibility: visible;
+  }
 
   .navigation-buttons {
     margin-top: 65%;
