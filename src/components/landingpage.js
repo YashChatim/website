@@ -10,13 +10,13 @@ class Landing extends Component {
           <Cell col={4} className="mdl-cell--1-col-tablet">
             <div className="navigation-buttons">
               <div className="about-button">
-                <a href="https://dry-thicket-44569.herokuapp.com/aboutme">
+                <a href="https://limitless-bastion-28771.herokuapp.com/aboutme">
                   <i class="about fa fa-user" aria-hidden="true"></i>
                 </a>
               </div>
 
               <div className="projects-button">
-                <a href="https://dry-thicket-44569.herokuapp.com/projects">
+                <a href="https://limitless-bastion-28771.herokuapp.com/projects">
                   <i class="projects fa fa-laptop" aria-hidden="true"></i>
                 </a>
               </div>
