@@ -338,6 +338,19 @@ a.mdl-button.mdl-button--colored {
 }
 
 
+@media (max-width: 1320px) {
+
+  .tech-row img {
+    height: 35px;
+    width: 35px;
+  }
+
+  .tech-row p {
+    font: 11px;
+  }
+}
+
+
 @media (max-width: 1024px) {
 
   .navigation-buttons {
