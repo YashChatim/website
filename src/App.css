@@ -370,9 +370,10 @@ a.mdl-button.mdl-button--colored {
     font-size: 40px;
     }
 
-  .about-grid {
-    margin-top: 100px;
-  }
+  .profile-pic, .statement-container {
+      margin-top: 30px;
+    }
+  
 }
 
 
