@@ -369,6 +369,10 @@ a.mdl-button.mdl-button--colored {
   .banner-text h1 {
     font-size: 40px;
     }
+
+  .about-grid {
+    margin-top: 100px;
+  }
 }
 
 
