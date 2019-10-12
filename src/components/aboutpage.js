@@ -116,6 +116,17 @@ class About extends Component {
                 </div>
               </Cell>
             </Grid>
+
+            <Grid>
+              <Cell col={5}>
+                <p>Left</p>
+              </Cell>
+
+              <Cell col={5}>
+                <p>Right</p>
+              </Cell>
+
+            </Grid>
           </Cell>
         </Grid>
       </div >
