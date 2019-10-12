@@ -325,6 +325,11 @@ a.mdl-button.mdl-button--colored {
 
 @media (max-width: 1320px) {
 
+  .statement-container p {
+    font-size: 13px;
+    margin-bottom: 14px;
+  }
+
   .tech-row img {
     height: 35px;
     width: 35px;
