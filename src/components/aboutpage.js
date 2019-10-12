@@ -29,7 +29,7 @@ class About extends Component {
             </div>
 
             <Grid>
-              <Cell col={4}>
+              <Cell col={5}>
                 <h4>Technical Skills</h4>
 
                 <div className="skills-container">
@@ -63,29 +63,10 @@ class About extends Component {
                     <Skill source="https://i.pinimg.com/originals/e0/33/78/e033782707e204310b524ce384df2b8f.png"
                       skillName="React MDL" />
                   </div>
-
-                  <h5 style={{ margin: "0 0 10px 0" }}>Back-end Skills</h5>
-
-                  <div className="back-tech">
-                    <Skill source="https://www.iihglobal.com/wp-content/uploads/2019/06/nodejs-development-256x256.jpg"
-                      skillName="Node.js" />
-
-                    <Skill source="https://dtb5pzswcit1e.cloudfront.net/assets/images/product_logos/icon_mongodb_v2@2x.png"
-                      skillName="MongoDB" />
-
-                    <Skill source="https://static-s.aa-cdn.net/img/ios/485729872/9b82da58cdf1dd6d75427cf37ac580f7"
-                      skillName="Python" />
-
-                    <Skill source="https://static-s.aa-cdn.net/img/ios/486208408/ab391a5c7c63ed46fd14e0af525a3cbb?v=1"
-                      skillName="C#/.NET" />
-
-                    <Skill source="https://i.imgur.com/1J0fRfY.jpg"
-                      skillName="Matlab" />
-                  </div>
                 </div>
               </Cell>
 
-              <Cell col={8}>
+              <Cell col={7}>
                 <h4>Education</h4>
                 <Education instituteName="The University of Sheffield"
                   courseName="BEng - Aerospace Engineering"
@@ -95,6 +76,32 @@ class About extends Component {
                   courseName="Mathematics, Physics, Further mathematics and IT"
                   startYear={2013} endYear={2015} />
 
+              </Cell>
+            </Grid>
+
+            <Grid>
+              <Cell col={5}>
+                <h5 style={{ margin: "0 0 10px 0" }}>Back-end Skills</h5>
+
+                <div className="back-tech">
+                  <Skill source="https://www.iihglobal.com/wp-content/uploads/2019/06/nodejs-development-256x256.jpg"
+                    skillName="Node.js" />
+
+                  <Skill source="https://dtb5pzswcit1e.cloudfront.net/assets/images/product_logos/icon_mongodb_v2@2x.png"
+                    skillName="MongoDB" />
+
+                  <Skill source="https://static-s.aa-cdn.net/img/ios/485729872/9b82da58cdf1dd6d75427cf37ac580f7"
+                    skillName="Python" />
+
+                  <Skill source="https://static-s.aa-cdn.net/img/ios/486208408/ab391a5c7c63ed46fd14e0af525a3cbb?v=1"
+                    skillName="C#/.NET" />
+
+                  <Skill source="https://i.imgur.com/1J0fRfY.jpg"
+                    skillName="Matlab" />
+                </div>
+              </Cell>
+
+              <Cell col={7}>
                 <div className="other-skills">
                   <h5 style={{ margin: "0 0 10px 0" }}>Other Skills</h5>
                   <div className="other-tech">
@@ -114,16 +121,6 @@ class About extends Component {
                       skillName="VS Code" />
                   </div>
                 </div>
-              </Cell>
-            </Grid>
-
-            <Grid>
-              <Cell col={5}>
-                <p>Left</p>
-              </Cell>
-
-              <Cell col={5}>
-                <p>Right</p>
               </Cell>
 
             </Grid>
