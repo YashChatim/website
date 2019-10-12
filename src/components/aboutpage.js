@@ -101,7 +101,7 @@ class About extends Component {
                 </div>
               </Cell>
 
-              <Cell col={7}>
+              <Cell col={5}>
                 <h5 style={{ margin: "0 0 10px 0" }}>Other Skills</h5>
 
                 <div className="other-skills">
