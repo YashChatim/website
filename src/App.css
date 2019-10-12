@@ -177,15 +177,9 @@
   justify-content: space-evenly;
 }
 
-.other-skills {
-  margin-top: 7%;
-  padding: 0 40% 0 0;
-}
-
 .other-tech {
   display: flex;
   justify-content: center;
-  padding-top: 1%;
 }
 
 .other-tech .tech-row {
