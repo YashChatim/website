@@ -172,14 +172,9 @@
   justify-content: space-evenly;
 }
 
-.back-tech {
+.back-tech, .other-tech {
   display: flex;
   justify-content: space-evenly;
-}
-
-.other-tech {
-  display: flex;
-  justify-content: center;
 }
 
 .tech-row {
