@@ -66,13 +66,13 @@ class About extends Component {
                 </div>
               </Cell>
 
-              <Cell col={7}>
+              <Cell className="institute" col={7}>
                 <h4>Education</h4>
                 <Education instituteName="The University of Sheffield"
                   courseName="BEng - Aerospace Engineering"
                   startYear={2015} endYear={2018} />
 
-                <Education instituteName=" Wembley High Technology College (WHTC)"
+                <Education instituteName=" Wembley High Technology College"
                   courseName="Mathematics, Physics, Further mathematics and IT"
                   startYear={2013} endYear={2015} />
 
