@@ -323,11 +323,10 @@ a.mdl-button.mdl-button--colored {
 }
 
 
-@media (max-width: 1320px) {
-
+@media (max-width: 1370px) {
   .statement-container p {
-    font-size: 13px;
-    margin-bottom: 14px;
+    font-size: 12px;
+    margin-bottom: 10px;
   }
 
   .tech-row img {
@@ -340,6 +339,20 @@ a.mdl-button.mdl-button--colored {
   }
 }
 
+
+@media (max-width: 1186px) {
+  .statement-container p {
+    font-size: 10px;
+  }
+
+  .institute h5 {
+    font-size: 17px;
+  }
+
+  .tech-row p {
+    font-size: 12px;
+  }
+}
 
 @media (max-width: 1024px) {
 
