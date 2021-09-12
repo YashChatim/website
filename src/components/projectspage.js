@@ -107,7 +107,7 @@ class Projects extends Component {
             title="YELP CAMP"
             description="A complete app that uses all the frontend, backend and other technical skills."
             gitURL="https://github.com/YashChatim/yelpCamp_v12-Deployed" gitButtonText="GitHub"
-            demoURL="https://blueberry-pudding-25899.herokuapp.com/" demoButtonText="Live Demo" />
+            demoURL="https://my-yelp-camp-application.herokuapp.com/" demoButtonText="Live Demo" />
         </div>
       )
     }
