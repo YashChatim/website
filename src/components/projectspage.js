@@ -36,7 +36,7 @@ const backendProjects = [
     "title": "REST BLOG APP",
     "description": "A node.js and express based app focusing on RESTful routing, and semantic UI.",
     "gitURL": "https://github.com/YashChatim/RESTBlogApp",
-    "demoURL": "https://warm-meadow-52947.herokuapp.com/blogs"
+    "demoURL": "https://my-rest-blog-app.herokuapp.com/blogs"
   }
 ];
 
