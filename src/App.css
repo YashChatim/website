@@ -1,16 +1,15 @@
 /* ------------------------------- App page ------------------------------------- */
 .header-color {
-  background: #ad5389; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #3c1053,
-    #ad5389
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #3c1053,
-    #ad5389
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #ad5389;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right,
+      #3c1053,
+      #ad5389);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right,
+      #3c1053,
+      #ad5389);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .header-color a {
@@ -60,13 +59,17 @@
   margin: 26% 0 0 45%;
 }
 
-.about, .projects, .contact {
+.about,
+.projects,
+.contact {
   font-size: 400%;
   margin: 100% 0;
   color: lightblue;
 }
 
-.about:hover, .projects:hover, .contact:hover {
+.about:hover,
+.projects:hover,
+.contact:hover {
   color: black;
 }
 
@@ -88,7 +91,8 @@
 
 .banner-text h2 {
   font-size: 33px;
-  background-color: rgba(224,255,255,0.4);;
+  background-color: rgba(224, 255, 255, 0.4);
+  ;
   color: black;
   margin: 0;
   line-height: 1;
@@ -100,18 +104,21 @@
   margin: 0;
 }
 
-.social-links, .contact-info {
+.social-links,
+.contact-info {
   float: center;
 }
 
-.social-links i, .contact-info i {
+.social-links i,
+.contact-info i {
   color: lightcyan;
   font-size: 3em;
   padding: 0 8px 0 35px;
   margin-top: 30px;
 }
 
-.social-links i:hover, .contact-info i:hover {
+.social-links i:hover,
+.contact-info i:hover {
   color: black;
 }
 
@@ -141,7 +148,8 @@
   color: white;
 }
 
-.about-body h3, .about-body h4 {
+.about-body h3,
+.about-body h4 {
   margin: 0;
 }
 
@@ -166,13 +174,14 @@
   margin: auto;
 }
 
-.frontend-tech  {
+.frontend-tech {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
-.back-tech, .other-tech {
+.back-tech,
+.other-tech {
   display: flex;
   justify-content: space-evenly;
 }
@@ -204,7 +213,8 @@
   border-bottom: none;
 }
 
-.projects-grid, .projects-grid h3 {
+.projects-grid,
+.projects-grid h3 {
   display: flex;
   margin: 25px 0;
   color: white;
@@ -223,9 +233,10 @@
   height: 100%;
 }
 
-.csharp h3, .csharp p {
+.csharp h3,
+.csharp p {
   padding-left: 3%;
-} 
+}
 
 .csharp h3 {
   margin-top: -57%;
@@ -238,7 +249,14 @@ a.mdl-button.mdl-button--colored {
   border: 1.5px dashed white;
 }
 
-.colorgame-panel, .todolist-panel, .movieapp-panel, .restblogapp-panel, .yelpcamp-panel, .laserdefender-panel, .blockbreaker-panel, .bowlingstrike-panel {
+.colorgame-panel,
+.todolist-panel,
+.movieapp-panel,
+.restblogapp-panel,
+.yelpcamp-panel,
+.laserdefender-panel,
+.blockbreaker-panel,
+.bowlingstrike-panel {
   border-radius: 2%;
 }
 
@@ -274,7 +292,8 @@ a.mdl-button.mdl-button--colored {
   background-color: rgb(221, 193, 142);
 }
 
-.laserdefender-panel a.mdl-button.mdl-button--colored, .blockbreaker-panel a.mdl-button.mdl-button--colored {
+.laserdefender-panel a.mdl-button.mdl-button--colored,
+.blockbreaker-panel a.mdl-button.mdl-button--colored {
   margin: -10% 0 0 72%;
 }
 
@@ -294,27 +313,34 @@ a.mdl-button.mdl-button--colored {
 
 /* ----------------------------- Media queries ----------------------------------- */
 
-@media (max-width: 1460px) {
+@media (max-width: 1920px) {
+  .banner-text {
+    width: 70%;
+  }
+}
 
+@media (max-width: 1460px) {
   .navigation-buttons {
     margin-top: 45%;
   }
 
-  .about, .projects, .contact {
+  .about,
+  .projects,
+  .contact {
     font-size: 350%;
   }
 
   .banner-text {
     margin: -5% 15% auto auto;
   }
-  
+
   .banner-text h1 {
     font-size: 60px;
-    }
-    
+  }
+
   .banner-text h2 {
     font-size: 2vw;
-    }
+  }
 
   .contact-info i {
     display: block;
@@ -360,23 +386,25 @@ a.mdl-button.mdl-button--colored {
     margin-top: 65%;
   }
 
-  .about, .projects, .contact {
+  .about,
+  .projects,
+  .contact {
     font-size: 300%;
   }
 
   .banner-text {
-    width: 70%;
     margin: -8% 0 0 20%;
   }
 
   .banner-text h1 {
     font-size: 40px;
-    }
+  }
 
-  .profile-pic, .statement-container {
-      margin-top: 30px;
-    }
-  
+  .profile-pic,
+  .statement-container {
+    margin-top: 30px;
+  }
+
 }
 
 
@@ -401,7 +429,9 @@ a.mdl-button.mdl-button--colored {
     margin-top: 250%;
   }
 
-  .about, .projects, .contact {
+  .about,
+  .projects,
+  .contact {
     font-size: 275%;
   }
 
@@ -413,11 +443,11 @@ a.mdl-button.mdl-button--colored {
     font-size: 200%;
     margin: 0;
   }
-    
+
   .contact-info {
     font-size: 110%;
   }
-  
+
   .contact-info i {
     font-size: 150%;
   }
@@ -431,7 +461,9 @@ a.mdl-button.mdl-button--colored {
     padding-left: 0;
   }
 
-  .about, .projects, .contact {
+  .about,
+  .projects,
+  .contact {
     font-size: 250%;
   }
 
@@ -450,11 +482,11 @@ a.mdl-button.mdl-button--colored {
     font-size: 150%;
     padding-right: 0;
   }
-    
+
   .contact-info {
     font-size: 110%;
   }
-  
+
   .contact-info i {
     font-size: 150%;
   }
