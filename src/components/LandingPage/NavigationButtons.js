@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import classes from './NavigationButtons.module.css';
+
 const baseURL = "https://my-react-portfolio-website.herokuapp.com";
 
 const navigationButtons = [
@@ -11,7 +13,7 @@ const navigationButtons = [
 class NavigationButtons extends Component {
     render() {
         return (
-            <div className="navigation-buttons">
+            <div className={classes['navigation-buttons']}>
                 {navigationButtons.map((item) => 
                     <div className={item.className}><a href={item.href}><i class={item.class} aria-hidden="true"></i></a></div>
                 )}

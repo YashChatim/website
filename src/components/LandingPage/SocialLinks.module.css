@@ -23,3 +23,46 @@
 .contact-info i {
     font-size: 30px;
 }
+
+@media (max-width: 1460px) {
+    .contact-info i {
+        display: block;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .social-links i {
+        font-size: 200%;
+        margin: 0;
+    }
+
+    .contact-info {
+        font-size: 110%;
+    }
+
+    .contact-info i {
+        font-size: 150%;
+    }
+}
+
+@media (max-width: 570px) {
+    .social-links i {
+        font-size: 150%;
+        padding-right: 0;
+    }
+
+    .contact-info {
+        font-size: 110%;
+    }
+
+    .contact-info i {
+        font-size: 150%;
+    }
+}
+
+@media (max-width: 480px) {
+    .social-links i {
+        font-size: 200%;
+    }
+}
