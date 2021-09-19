@@ -1,3 +1,22 @@
+.navigation-buttons {
+    float: left;
+    margin: 26% 0 0 45%;
+}
+
+.about,
+.projects,
+.contact {
+    font-size: 400%;
+    margin: 100% 0;
+    color: lightblue;
+}
+
+.about:hover,
+.projects:hover,
+.contact:hover {
+    color: black;
+}
+
 @media (max-width: 1460px) {
     .navigation-buttons {
         margin-top: 45%;
