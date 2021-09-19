@@ -12,9 +12,7 @@ class LandingPage extends Component {
             <div className={classes['landing-page']}>
                 <Grid className={classes['landing-grid']}>
                     {/* Grid - custom component to use to render the grid, Cell - set the column size */}
-                    <Cell col={4} className="mdl-cell--1-col-tablet">
-                        <NavigationButtons />
-                    </Cell>
+                    <Cell col={4} className="mdl-cell--1-col-tablet"></Cell>
                     <Cell col={8} className="mdl-cell--6-col-tablet">
                         <div className={classes['banner-text']}>
                             <h1>YASH CHATIM</h1>
