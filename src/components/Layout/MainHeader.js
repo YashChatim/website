@@ -1,21 +1,25 @@
-import React, { Component } from "react";
-import "../../App.css";
-import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
-import { Link } from "react-router-dom";
-import Main from "../main";
-import Pdf from "../../cv.pdf";
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
+
+import Main from '../main';
+
+import '../../App.css';
+import classes from './MainHeader.module.css';
+
+import Pdf from '../../cv.pdf';
 
 class MainHeader extends Component {
     render() {
       return (
         <div>
             <Layout>
-                <Header className="header-color" title={<Link to="/">
+                <Header className={classes['header-color']} title={<Link to="/">
                     <a rel="noopener noreferrer" target="_blank">
                         <i className="fa fa-home" aria-hidden="true" />
                     </a></Link>}>
     
-                    <div className="resume-container">
+                    <div className={classes['resume-container']}>
                         <a href={Pdf} target="_blank" rel="noopener noreferrer">View CV</a>
                         <a href="mailto:chatim.yash@yahoo.co.uk">Contact</a>
                     </div>
