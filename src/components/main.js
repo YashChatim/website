@@ -1,9 +1,9 @@
-import React from "react";
-import { Switch, Route } from "react-router-dom";
+import React from 'react';
+import { Switch, Route } from 'react-router-dom';
 
-import LandingPage from "./LandingPage/LandingPage";
-import AboutMe from "./aboutpage";
-import Projects from "./projectspage";
+import LandingPage from './LandingPage/LandingPage';
+import AboutMe from './AboutPage/AboutPage';
+import Projects from './projectspage';
 
 // Routing
 const Main = () => (
