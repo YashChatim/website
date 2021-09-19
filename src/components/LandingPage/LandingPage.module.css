@@ -1,0 +1,94 @@
+.landing-page {
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+}
+
+.landing-grid {
+    background-image: url(../../mainbackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.navigation-buttons {
+    float: left;
+    margin: 26% 0 0 45%;
+}
+
+.about,
+.projects,
+.contact {
+    font-size: 400%;
+    margin: 100% 0;
+    color: lightblue;
+}
+
+.about:hover,
+.projects:hover,
+.contact:hover {
+    color: black;
+}
+
+.banner-text {
+    width: 60%;
+    margin: 5% 10% auto auto;
+    border-radius: 8px;
+    color: lightcyan;
+    transform: translateY(90%);
+}
+
+.banner-text h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    text-align: right;
+    margin: 0;
+    line-height: 1;
+}
+
+.banner-text h2 {
+    font-size: 33px;
+    background-color: rgba(224, 255, 255, 0.4);
+    ;
+    color: black;
+    margin: 0;
+    line-height: 1;
+}
+
+.banner-text p {
+    font-size: 15px;
+    padding: 1em;
+    margin: 0;
+}
+
+.social-links,
+.contact-info {
+    float: center;
+}
+
+.social-links i,
+.contact-info i {
+    color: lightcyan;
+    font-size: 3em;
+    padding: 0 8px 0 35px;
+    margin-top: 30px;
+}
+
+.social-links i:hover,
+.contact-info i:hover {
+    color: black;
+}
+
+.contact-info {
+    font-size: 20px;
+}
+
+.contact-info i {
+    font-size: 30px;
+}
