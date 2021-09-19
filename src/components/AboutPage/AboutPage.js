@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 
 import Education from './Education';
-import Skills from './Skills';
 import FrontendSkills from './FrontendSkills';
 import BackendSkills from './BackendSkills';
 import OtherSkills from './OtherSkills';
@@ -39,11 +38,7 @@ class About extends Component {
             <Grid>
               <Cell col={5}>
                 <h4>Technical Skills</h4>
-
-                <div className="skills-container">
-                  <h5>Front-End Skills</h5>
-                  <FrontendSkills />
-                </div>
+                <FrontendSkills />
               </Cell>
 
               <Cell className="institute" col={7}>
@@ -54,16 +49,11 @@ class About extends Component {
 
             <Grid>
               <Cell col={5}>
-                <h5 style={{ margin: "0 0 10px 0" }}>Back-end Skills</h5>
                 <BackendSkills />                
               </Cell>
 
               <Cell col={5}>
-                <h5 style={{ margin: "0 0 10px 0" }}>Other Skills</h5>
-
-                <div className="other-skills">
-                  <OtherSkills />
-                </div>
+                <OtherSkills />
               </Cell>
 
             </Grid>

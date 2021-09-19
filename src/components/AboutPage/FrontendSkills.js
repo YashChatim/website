@@ -17,8 +17,11 @@ const frontendSkills = [
 class FrontendSkills extends Component {
     render() {
         return (
-            <div className="frontend-tech">
-                {frontendSkills.map((item) => <Skills source={item.source} skillName={item.skillName} />)}
+            <div className="skills-container">
+                <h5>Front-End Skills</h5>
+                <div className="frontend-tech">
+                    {frontendSkills.map((item) => <Skills source={item.source} skillName={item.skillName} />)}
+                </div>
             </div>
         );
     }

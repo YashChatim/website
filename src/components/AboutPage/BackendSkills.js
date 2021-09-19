@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 
 import Skills from './Skills';
 
@@ -13,9 +13,12 @@ const backendSkills = [
 class BackendSkills extends Component {
     render() {
         return (
-            <div className="back-tech">
-                {backendSkills.map((item) => <Skills source={item.source} skillName={item.skillName} />)}
-            </div>
+            <Fragment>
+                <h5 style={{ margin: "0 0 10px 0" }}>Back-end Skills</h5>
+                <div className="back-tech">
+                    {backendSkills.map((item) => <Skills source={item.source} skillName={item.skillName} />)}
+                </div>
+            </Fragment>
         );
     }
 }
