@@ -66,29 +66,3 @@
     padding: 1em;
     margin: 0;
 }
-
-.social-links,
-.contact-info {
-    float: center;
-}
-
-.social-links i,
-.contact-info i {
-    color: lightcyan;
-    font-size: 3em;
-    padding: 0 8px 0 35px;
-    margin-top: 30px;
-}
-
-.social-links i:hover,
-.contact-info i:hover {
-    color: black;
-}
-
-.contact-info {
-    font-size: 20px;
-}
-
-.contact-info i {
-    font-size: 30px;
-}
