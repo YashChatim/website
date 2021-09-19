@@ -11,37 +11,37 @@ import Pdf from '../../cv.pdf';
 
 class MainHeader extends Component {
     render() {
-      return (
-        <div>
-            <Layout>
-                <Header className={classes['header-color']} title={<Link to="/">
-                    <a rel="noopener noreferrer" target="_blank">
-                        <i className="fa fa-home" aria-hidden="true" />
-                    </a></Link>}>
-    
-                    <div className={classes['resume-container']}>
-                        <a href={Pdf} target="_blank" rel="noopener noreferrer">View CV</a>
-                        <a href="mailto:chatim.yash@yahoo.co.uk">Contact</a>
-                    </div>
-                </Header>
-                <Drawer>
-                    {/* Drawer - provide access to destinations in the app */}
-                    <Navigation className="navbar">
-                        <Link className="nav-1" to="/">Home</Link>
-                        <Link className="nav-2" to="/aboutme">About</Link>
-                        <Link className="nav-3" to="/projects">Projects</Link>
-                        <a href="mailto:chatim.yash@yahoo.co.uk">Contact</a>
-                        {/* Link - allow to navigate around the app by rendering fully accessible anchor tag with proper href */}
-                    </Navigation>
-                </Drawer>
-                <Content>
-                    <div className="page-content"></div>
-                    <Main />
-                </Content>
-            </Layout>
-        </div>
-      );
+        return (
+            <div>
+                <Layout>
+                    <Header className={classes['header-color']} title={<Link to="/">
+                        <a rel="noopener noreferrer" target="_blank">
+                            <i className="fa fa-home" aria-hidden="true" />
+                        </a></Link>}>
+
+                        <div className={classes['resume-container']}>
+                            <a href={Pdf} target="_blank" rel="noopener noreferrer">View CV</a>
+                            <a href="mailto:chatim.yash@yahoo.co.uk">Contact</a>
+                        </div>
+                    </Header>
+                    <Drawer>
+                        {/* Drawer - provide access to destinations in the app */}
+                        <Navigation className="navbar">
+                            <Link className="nav-1" to="/">Home</Link>
+                            <Link className="nav-2" to="/aboutme">About</Link>
+                            <Link className="nav-3" to="/projects">Projects</Link>
+                            <a href="mailto:chatim.yash@yahoo.co.uk">Contact</a>
+                            {/* Link - allow to navigate around the app by rendering fully accessible anchor tag with proper href */}
+                        </Navigation>
+                    </Drawer>
+                    <Content>
+                        <div className="page-content"></div>
+                        <Main />
+                    </Content>
+                </Layout>
+            </div>
+        );
     }
-  }
-  
-  export default MainHeader;
+}
+
+export default MainHeader;
