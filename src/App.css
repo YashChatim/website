@@ -212,41 +212,12 @@ a.mdl-button.mdl-button--colored {
 
 @media (max-width: 1024px) {
 
-  .about,
-  .projects,
-  .contact {
-    font-size: 300%;
-  }
-
   .profile-pic,
   .statement-container {
     margin-top: 30px;
   }
 
 }
-
-
-@media (max-width: 768px) {
-
-  .about,
-  .projects,
-  .contact {
-    font-size: 275%;
-  }
-
-}
-
-
-@media (max-width: 570px) {
-
-  .about,
-  .projects,
-  .contact {
-    font-size: 250%;
-  }
-
-}
-
 
 @media (max-width: 480px) {
   .mdl-cell--1-col-tablet {

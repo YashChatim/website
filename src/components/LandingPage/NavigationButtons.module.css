@@ -14,6 +14,12 @@
     .navigation-buttons {
         margin-top: 65%;
     }
+
+    .about,
+    .projects,
+    .contact {
+        font-size: 300%;
+    }
 }
 
 @media (max-width: 839px) {
@@ -27,10 +33,22 @@
     .navigation-buttons {
         margin-top: 250%;
     }
+
+    .about,
+    .projects,
+    .contact {
+        font-size: 275%;
+    }
 }
 
 @media (max-width: 570px) {
     .navigation-buttons {
         padding-left: 0;
+    }
+
+    .about,
+    .projects,
+    .contact {
+        font-size: 250%;
     }
 }
