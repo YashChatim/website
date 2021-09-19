@@ -3,10 +3,19 @@ import React, { Component, Fragment } from 'react';
 import Skills from './Skills';
 
 const otherSkills = [
+    {"skillName": "Bitbucket", "source": "https://logowik.com/content/uploads/images/bitbucket9553.jpg"},
     {"skillName": "Heroku", "source": "https://s3.amazonaws.com/hackdesign/tools/app_images/000/000/037/icon_small/heroku-logo-6e6c2ed8be2ad02ac96455d53e4e7e43.png?1385326105"},
     {"skillName": "Cloud9", "source": "https://res-4.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1439425175/easvowgtoy62fgnpbz6p.png"},
     {"skillName": "Visual Studio", "source": "https://cdn.iconscout.com/icon/free/png-256/visual-studio-569577.png"},
     {"skillName": "VS Code", "source": "https://code.visualstudio.com/assets/favicon.ico"},
+    {"skillName": "OOP", "source": "https://miro.medium.com/max/1200/1*m8SG-c1f65wgsvu3RxdrTw.png"},
+    {"skillName": "JSON", "source": "https://pedrorijo.com/assets/img/json-logo.png"},
+    {"skillName": "MVC", "source": "https://miro.medium.com/max/1400/1*GWjlB9_708s3lbx8ufOYlw.jpeg"},
+    {"skillName": "MVVM", "source": "https://miro.medium.com/max/1400/1*NvvHhA24kizVjj7W50AnuA.png"},
+    {"skillName": "XML", "source": "https://1.bp.blogspot.com/-9_LYtPyzy9g/WPSEc-vTWEI/AAAAAAAAU-s/Nqt52hONhpYjoOm7OiRivUgeWYjeU6QOACLcB/s1600/XML.jpg"},
+    {"skillName": "XAML", "source": "https://user-images.githubusercontent.com/16964652/65000162-75d7fe00-d89f-11e9-873c-b5f5e56c4ad4.png"},
+    {"skillName": "Agile", "source": "https://itcgroup.io/Image%20for%20Blog/What%20is%20Agile%20methodology-/What%20is%20Agile%20methodology-.png"},
+    {"skillName": "Rest API", "source": "https://zappysys.com/blog/wp-content/uploads/2018/06/REST-API-icon.jpg"}
 ];
 
 class OtherSkills extends Component {
