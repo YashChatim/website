@@ -20,12 +20,12 @@
     color: plum;
 }
 
-.resume-container {
+.header-links {
     width: 20%;
     display: flex;
     justify-content: space-evenly;
 }
 
-.resume-container a {
+.header-links a {
     font-size: 17px;
 }

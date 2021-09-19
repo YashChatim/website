@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 
-import NavigationButtons from './NavigationButtons';
 import SocialLinks from './SocialLinks';
 
 import classes from './LandingPage.module.css';
