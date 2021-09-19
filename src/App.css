@@ -1,5 +1,6 @@
 /* ------------------------------- About page ------------------------------------ */
 .about-body {
+  overflow-y: scroll;
   background-image: url(./realdiamond.JPG);
   background-repeat: no-repeat;
   background-size: cover;
@@ -49,6 +50,7 @@
 .back-tech,
 .other-tech {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
