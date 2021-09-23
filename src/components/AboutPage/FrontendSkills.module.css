@@ -1,0 +1,9 @@
+.skills-container {
+    margin: auto;
+}
+
+.frontend-tech {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

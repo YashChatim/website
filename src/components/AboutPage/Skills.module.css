@@ -1,0 +1,26 @@
+.tech-row {
+    margin: 3% 0;
+}
+
+.tech-row img {
+    height: 50px;
+    width: 50px;
+    border-radius: 10%;
+}
+
+@media (max-width: 1370px) {
+    .tech-row img {
+        height: 35px;
+        width: 35px;
+    }
+
+    .tech-row p {
+        font: 11px;
+    }
+}
+
+@media (max-width: 1186px) {
+    .tech-row p {
+        font-size: 12px;
+    }
+}

@@ -2,6 +2,8 @@ import React, { Component, Fragment } from 'react';
 
 import Skills from './Skills';
 
+import classes from './BackendSkills.module.css';
+
 const backendSkills = [
     {"skillName": "Node.js", "source": "https://www.iihglobal.com/wp-content/uploads/2019/06/nodejs-development-256x256.jpg"},
     {"skillName": "MongoDB", "source": "https://dtb5pzswcit1e.cloudfront.net/assets/images/product_logos/icon_mongodb_v2@2x.png"},
@@ -21,7 +23,7 @@ class BackendSkills extends Component {
         return (
             <Fragment>
                 <h5 style={{ margin: "0 0 10px 0" }}>Back-end Skills</h5>
-                <div className="back-tech">
+                <div className={classes['back-tech']}>
                     {backendSkills.map((item) => <Skills source={item.source} skillName={item.skillName} />)}
                 </div>
             </Fragment>

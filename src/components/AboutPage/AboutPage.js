@@ -6,6 +6,8 @@ import FrontendSkills from './FrontendSkills';
 import BackendSkills from './BackendSkills';
 import OtherSkills from './OtherSkills';
 
+import classes from './AboutPage.module.css';
+
 const educations = [
   {"instituteName": "The University of Sheffield", "courseName": "BEng - Aerospace Engineering", "startYear": 2015, "endYear": 2018},
   {"instituteName": "Wembley High Technology College", "courseName": "Mathematics, Physics, Further mathematics and IT", "startYear": 2013, "endYear": 2015},
@@ -14,19 +16,17 @@ const educations = [
 class About extends Component {
   render() {
     return (
-      <div className="about-body">
-        <Grid className="about-grid">
+      <div className={classes['about-body']}>
+        <Grid className={classes['about-grid']}>
           <Cell col={4}>
             <div style={{ textAlign: "center" }}>
               <img src="https://i.pinimg.com/originals/fc/4f/72/fc4f726b36792d548f77896de0568a3a.jpg"
-                alt="profile" className="profile-pic" />
+                alt="profile" className={classes['profile-pic']} />
             </div>
-
           </Cell>
 
           <Cell col={8}>
-
-            <div className="statement-container">
+            <div className={classes['statement-container']}>
               <p>I am a proficient frontend web developer with knowledge and competency in backend.
               I have 3 years of academic experience in Javascript as well as 2 years in python, C# and Matlab.
               Additionally, I have 2 years of self-assigned experience working with the entire frontend pipeline

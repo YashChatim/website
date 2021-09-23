@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 import Skills from './Skills';
 
+import classes from './FrontendSkills.module.css';
+
 const frontendSkills = [
     {"skillName": "HTML", "source": "https://icon-library.net/images/css3-icon/css3-icon-3.jpg"},
     {"skillName": "CSS", "source": "https://pbs.twimg.com/profile_images/630569055729131520/v0I_dVu5_400x400.jpg"},
@@ -18,9 +20,9 @@ const frontendSkills = [
 class FrontendSkills extends Component {
     render() {
         return (
-            <div className="skills-container">
+            <div className={classes['skills-container']}>
                 <h5>Front-End Skills</h5>
-                <div className="frontend-tech">
+                <div className={classes['frontend-tech']}>
                     {frontendSkills.map((item) => <Skills source={item.source} skillName={item.skillName} />)}
                 </div>
             </div>

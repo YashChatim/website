@@ -1,0 +1,58 @@
+.about-body {
+    overflow-y: scroll;
+    background-image: url(./realdiamond.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(81, 144, 238);
+    background-position: right;
+    margin: auto;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    padding: 0;
+    color: white;
+}
+
+.about-body h3,
+.about-body h4 {
+    margin: 0;
+}
+
+.about-grid {
+    text-align: center;
+    justify-content: center;
+}
+
+.profile-pic {
+    height: 100%;
+    width: 100%;
+    border-radius: 2%;
+}
+
+.statement-container {
+    padding: 20px 15px;
+    background-color: rgb(155, 84, 149);
+    border-radius: 2%;
+}
+
+@media (max-width: 1370px) {
+    .statement-container p {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 1186px) {
+    .statement-container p {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .profile-pic,
+    .statement-container {
+        margin-top: 30px;
+    }
+}
