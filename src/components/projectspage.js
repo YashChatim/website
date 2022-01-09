@@ -1,70 +1,9 @@
 import React, { Component } from "react";
 import { Tabs, Tab, Grid, Cell, Button } from "react-mdl";
+
 import Demo from "./demo";
 
-const frontendProjects = [
-  {
-    id: 1,
-    "gridClassName": "colorgame-panel",
-    "source": "https://i.pinimg.com/originals/49/82/d9/4982d9cdf12076d44b968712ef188db1.jpg",
-    "title": "COLOUR GAME",
-    "description": "A web-based game focusing on HTML5, CSS3, Javascript, DOM manipulation and event handling.",
-    "gitURL": "https://github.com/YashChatim/colorGame",
-    "demoURL": "https://yashchatim.github.io/colorGame/"
-  },
-  {
-    id: 2,
-    "gridClassName": "todolist-panel",
-    "source": "https://i.pinimg.com/originals/ec/af/59/ecaf5985044f1a38cc17b82efec8c348.jpg",
-    "title": "TO-DO LIST APP",
-    "description": "A jQuery based app heavily focus on CSS, animation and effects, bootstrap, and is also responsive.",
-    "gitURL": "https://github.com/YashChatim/toDoList",
-    "demoURL": "https://yashchatim.github.io/toDoList/"
-  }
-];
-
-const backendProjects = [
-  {
-    id: 1,
-    "gridClassName": "movieapp-panel",
-    "source": "https://i.pinimg.com/originals/74/34/c8/7434c86da18e03235b1f7a7cb0652fa2.jpg",
-    "title": "MOVIE APP",
-    "description": "A node.js and express based app that uses an API which contains movie data.",
-    "gitURL": "https://github.com/YashChatim/movie_app",
-    "demoURL": "https://ymdb-movie-app.herokuapp.com/"
-  },
-  {
-    id: 2, 
-    "gridClassName": "restblogapp-panel",
-    "source": "https://i.pinimg.com/originals/7f/df/07/7fdf07740dfad7bfc430ae61301b9c18.jpg",
-    "title": "REST BLOG APP",
-    "description": "A node.js and express based app focusing on RESTful routing, and semantic UI.",
-    "gitURL": "https://github.com/YashChatim/RESTBlogApp",
-    "demoURL": "https://my-rest-blog-app.herokuapp.com/blogs"
-  }
-];
-
-const csharpProjects = [
-  {
-    id: 1,
-    "className": "laserdefender-panel",
-    "src": "https://i.pinimg.com/originals/3c/a8/8f/3ca88ff7f92eab510d2d9c13ecd6f799.jpg",
-    "alt": "Laser defender",
-    "text1": "LASER",
-    "text2": "DEFENDER",
-    "href": "https://github.com/YashChatim/Laser_Defender",
-
-  },
-  {
-    id: 2, 
-    "className": "blockbreaker-panel",
-    "src": "https://i.pinimg.com/originals/0e/f6/2e/0ef62ec445336f3a31cf990253ab860f.jpg",
-    "alt": "Bowling strike",
-    "text1": "BLOCK",
-    "text2": "BREAKER",
-    "href": "https://github.com/YashChatim/Block_Breaker"
-  }
-];
+import data from '../data.json';
 
 class Projects extends Component {
 
@@ -88,7 +27,7 @@ class Projects extends Component {
     if (this.state.activeTab === 0) {
       return (
         <div className="projects-container">
-          {frontendProjects.map((item) => 
+          {data.pages.projects.frontendProjects.map((item) => 
             <Demo key={item.id} gridClassName={item.gridClassName} source={item.source} title={item.title} description={item.description} 
             gitURL={item.gitURL} gitButtonText="GitHub" demoURL={item.demoURL} demoButtonText="Live Demo" />)}
         </div>
@@ -98,7 +37,7 @@ class Projects extends Component {
     else if (this.state.activeTab === 1) {
       return (
         <div>
-          {backendProjects.map((item) => 
+          {data.pages.projects.backendProjects.map((item) => 
             <Demo key={item.id} gridClassName={item.gridClassName} source={item.source} title={item.title} description={item.description} 
             gitURL={item.gitURL} gitButtonText="GitHub" demoURL={item.demoURL} demoButtonText="Live Demo" />)}
         </div>
@@ -123,7 +62,7 @@ class Projects extends Component {
         <div className="projects-container">
           <div className="projects-grid csharp">
             <Grid>
-              {csharpProjects.map((item) => 
+              {data.pages.projects.csharpProjects.map((item) => 
                 <Cell col={4}>
                   <Grid key={item.id} className={item.className}>
                     <img src={item.src} alt={item.alt} className="image-pic" />

@@ -8,10 +8,7 @@ import OtherSkills from './OtherSkills';
 
 import classes from './AboutPage.module.css';
 
-const educations = [
-    {id:1, "instituteName": "The University of Sheffield", "courseName": "BEng - Aerospace Engineering", "startYear": 2015, "endYear": 2018},
-    {id:2, "instituteName": "Wembley High Technology College", "courseName": "Mathematics, Physics, Further mathematics and IT", "startYear": 2013, "endYear": 2015},
-]
+import data from '../../data.json';
 
 class About extends Component {
     render() {
@@ -37,7 +34,7 @@ class About extends Component {
                         <Grid>
                             <Cell className="institute" col={7}>
                                 <h4>Education</h4>
-                                {educations.map((item) => <Education key={item.id} instituteName={item.instituteName} courseName={item.courseName} startYear={item.startYear} endYear={item.endYear} />)}
+                                {data.pages.about.educations.map((item) => <Education key={item.id} instituteName={item.instituteName} courseName={item.courseName} startYear={item.startYear} endYear={item.endYear} />)}
                             </Cell>
                             <Cell col={5}>
                                 <h4>Technical Skills</h4>
