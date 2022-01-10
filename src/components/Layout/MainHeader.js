@@ -14,7 +14,7 @@ class MainHeader extends Component {
         return (
             <div>
                 <Layout>
-                    <Header className={classes['header-color']} title={<Link to="/">
+                    <Header className={classes['header-color']} title={<Link to="/website">
                         <a rel="noopener noreferrer" target="_blank">
                             <i className="fa fa-home" aria-hidden="true" />
                         </a></Link>}>
