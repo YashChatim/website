@@ -8,9 +8,9 @@ import Projects from './projectspage';
 // Routing
 const Main = () => (
   <Switch>
-    <Route exact path="/" component={LandingPage} />
-    <Route path="/aboutme" component={AboutMe} />
-    <Route path="/projects" component={Projects} />
+    <Route exact path="/website" component={LandingPage} />
+    <Route path="/website/aboutme" component={AboutMe} />
+    <Route path="/website/projects" component={Projects} />
   </Switch> // Switch - renders first child's <Route>/<Redirect> location.
 );
 
