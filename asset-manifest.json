@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.51e64a8e.chunk.css",
-    "main.js": "/website/static/js/main.0c676af8.chunk.js",
-    "main.js.map": "/website/static/js/main.0c676af8.chunk.js.map",
-    "runtime~main.js": "/website/static/js/runtime~main.de462641.js",
-    "runtime~main.js.map": "/website/static/js/runtime~main.de462641.js.map",
-    "static/css/2.60a6b8e0.chunk.css": "/website/static/css/2.60a6b8e0.chunk.css",
-    "static/js/2.e84b266f.chunk.js": "/website/static/js/2.e84b266f.chunk.js",
-    "static/js/2.e84b266f.chunk.js.map": "/website/static/js/2.e84b266f.chunk.js.map",
-    "index.html": "/website/index.html",
-    "precache-manifest.fe62eb6717194ff812007f1c436af475.js": "/website/precache-manifest.fe62eb6717194ff812007f1c436af475.js",
-    "service-worker.js": "/website/service-worker.js",
-    "static/css/2.60a6b8e0.chunk.css.map": "/website/static/css/2.60a6b8e0.chunk.css.map",
-    "static/css/main.51e64a8e.chunk.css.map": "/website/static/css/main.51e64a8e.chunk.css.map",
-    "static/media/App.css": "/website/static/media/realdiamond.fb7ed965.JPG",
-    "static/media/cv.pdf": "/website/static/media/cv.ce66d1b9.pdf"
+    "main.css": "/must-eat/static/css/main.0b475e95.chunk.css",
+    "main.js": "/must-eat/static/js/main.2b69fee5.chunk.js",
+    "main.js.map": "/must-eat/static/js/main.2b69fee5.chunk.js.map",
+    "runtime~main.js": "/must-eat/static/js/runtime~main.bda7aa0c.js",
+    "runtime~main.js.map": "/must-eat/static/js/runtime~main.bda7aa0c.js.map",
+    "static/css/2.60a6b8e0.chunk.css": "/must-eat/static/css/2.60a6b8e0.chunk.css",
+    "static/js/2.7948a8bd.chunk.js": "/must-eat/static/js/2.7948a8bd.chunk.js",
+    "static/js/2.7948a8bd.chunk.js.map": "/must-eat/static/js/2.7948a8bd.chunk.js.map",
+    "index.html": "/must-eat/index.html",
+    "precache-manifest.f5c55c491b830dcb998ae7b034ea498d.js": "/must-eat/precache-manifest.f5c55c491b830dcb998ae7b034ea498d.js",
+    "service-worker.js": "/must-eat/service-worker.js",
+    "static/css/2.60a6b8e0.chunk.css.map": "/must-eat/static/css/2.60a6b8e0.chunk.css.map",
+    "static/css/main.0b475e95.chunk.css.map": "/must-eat/static/css/main.0b475e95.chunk.css.map",
+    "static/media/cv.pdf": "/must-eat/static/media/cv.3a2f97b0.pdf",
+    "static/media/LandingPage.module.css": "/must-eat/static/media/mainbackground.df6388bf.jpg",
+    "static/media/AboutPage.module.css": "/must-eat/static/media/realdiamond.fb7ed965.JPG"
   }
 }
