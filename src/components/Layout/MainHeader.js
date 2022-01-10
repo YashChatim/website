@@ -14,17 +14,15 @@ class MainHeader extends Component {
         return (
             <div>
                 <Layout>
-                    <Header className={classes['header-color']} title={<Link to="/website">
-                        <a rel="noopener noreferrer" target="_blank">
-                            <i className="fa fa-home" aria-hidden="true" />
-                        </a></Link>}>
-
-                        <div className={classes['header-links']}>
-                            <a href="/website/aboutme">About</a>
-                            <a href="/website/projects">Projects</a>
+                    <Header className={classes['header-color']}>
+                        <Navigation className={classes['header-links']}>
+                            <Link className="nav-1" to="/website"><i className="fa fa-home" aria-hidden="true" /></Link>
+                            <Link className="nav-2" to="/website/aboutme">About</Link>
+                            <Link className="nav-3" to="/website/projects">Projects</Link>
                             <a href="mailto:chatim.yash@yahoo.co.uk">Contact</a>
                             <a href={Pdf} target="_blank" rel="noopener noreferrer">View CV</a>
-                        </div>
+                            {/* Link - allow to navigate around the app by rendering fully accessible anchor tag with proper href */}
+                        </Navigation>
                     </Header>
                     <Drawer>
                         {/* Drawer - provide access to destinations in the app */}
@@ -34,7 +32,6 @@ class MainHeader extends Component {
                             <Link className="nav-3" to="/website/projects">Projects</Link>
                             <a href="mailto:chatim.yash@yahoo.co.uk">Contact</a>
                             <a href={Pdf} target="_blank" rel="noopener noreferrer">View CV</a>
-                            {/* Link - allow to navigate around the app by rendering fully accessible anchor tag with proper href */}
                         </Navigation>
                     </Drawer>
                     <Content>

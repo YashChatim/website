@@ -21,9 +21,9 @@
 }
 
 .header-links {
-    width: 35%;
+    width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: end;
 }
 
 .header-links a {
