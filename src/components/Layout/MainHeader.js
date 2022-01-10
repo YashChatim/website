@@ -20,8 +20,8 @@ class MainHeader extends Component {
                         </a></Link>}>
 
                         <div className={classes['header-links']}>
-                            <a href="/aboutme">About</a>
-                            <a href="/projects">Projects</a>
+                            <a href="/website/aboutme">About</a>
+                            <a href="/website/projects">Projects</a>
                             <a href="mailto:chatim.yash@yahoo.co.uk">Contact</a>
                             <a href={Pdf} target="_blank" rel="noopener noreferrer">View CV</a>
                         </div>
@@ -29,9 +29,9 @@ class MainHeader extends Component {
                     <Drawer>
                         {/* Drawer - provide access to destinations in the app */}
                         <Navigation className="navbar">
-                            <Link className="nav-1" to="/">Home</Link>
-                            <Link className="nav-2" to="/aboutme">About</Link>
-                            <Link className="nav-3" to="/projects">Projects</Link>
+                            <Link className="nav-1" to="/website">Home</Link>
+                            <Link className="nav-2" to="/website/aboutme">About</Link>
+                            <Link className="nav-3" to="/website/projects">Projects</Link>
                             <a href="mailto:chatim.yash@yahoo.co.uk">Contact</a>
                             <a href={Pdf} target="_blank" rel="noopener noreferrer">View CV</a>
                             {/* Link - allow to navigate around the app by rendering fully accessible anchor tag with proper href */}
