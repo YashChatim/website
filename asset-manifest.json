@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/must-eat/static/css/main.0b475e95.chunk.css",
-    "main.js": "/must-eat/static/js/main.70bcc18b.chunk.js",
-    "main.js.map": "/must-eat/static/js/main.70bcc18b.chunk.js.map",
-    "runtime~main.js": "/must-eat/static/js/runtime~main.bda7aa0c.js",
-    "runtime~main.js.map": "/must-eat/static/js/runtime~main.bda7aa0c.js.map",
-    "static/css/2.60a6b8e0.chunk.css": "/must-eat/static/css/2.60a6b8e0.chunk.css",
-    "static/js/2.31354f4e.chunk.js": "/must-eat/static/js/2.31354f4e.chunk.js",
-    "static/js/2.31354f4e.chunk.js.map": "/must-eat/static/js/2.31354f4e.chunk.js.map",
-    "index.html": "/must-eat/index.html",
-    "precache-manifest.f5cfbb14f96e35014f716b49be04a8a9.js": "/must-eat/precache-manifest.f5cfbb14f96e35014f716b49be04a8a9.js",
-    "service-worker.js": "/must-eat/service-worker.js",
-    "static/css/2.60a6b8e0.chunk.css.map": "/must-eat/static/css/2.60a6b8e0.chunk.css.map",
-    "static/css/main.0b475e95.chunk.css.map": "/must-eat/static/css/main.0b475e95.chunk.css.map",
-    "static/media/cv.pdf": "/must-eat/static/media/cv.3a2f97b0.pdf",
-    "static/media/LandingPage.module.css": "/must-eat/static/media/mainbackground.df6388bf.jpg",
-    "static/media/AboutPage.module.css": "/must-eat/static/media/realdiamond.fb7ed965.JPG"
+    "main.css": "/website/static/css/main.6cc55a99.chunk.css",
+    "main.js": "/website/static/js/main.85f4ea97.chunk.js",
+    "main.js.map": "/website/static/js/main.85f4ea97.chunk.js.map",
+    "runtime~main.js": "/website/static/js/runtime~main.de462641.js",
+    "runtime~main.js.map": "/website/static/js/runtime~main.de462641.js.map",
+    "static/css/2.60a6b8e0.chunk.css": "/website/static/css/2.60a6b8e0.chunk.css",
+    "static/js/2.31354f4e.chunk.js": "/website/static/js/2.31354f4e.chunk.js",
+    "static/js/2.31354f4e.chunk.js.map": "/website/static/js/2.31354f4e.chunk.js.map",
+    "index.html": "/website/index.html",
+    "precache-manifest.039a719ab1ca07e341bd07c2d7593a2e.js": "/website/precache-manifest.039a719ab1ca07e341bd07c2d7593a2e.js",
+    "service-worker.js": "/website/service-worker.js",
+    "static/css/2.60a6b8e0.chunk.css.map": "/website/static/css/2.60a6b8e0.chunk.css.map",
+    "static/css/main.6cc55a99.chunk.css.map": "/website/static/css/main.6cc55a99.chunk.css.map",
+    "static/media/cv.pdf": "/website/static/media/cv.3a2f97b0.pdf",
+    "static/media/LandingPage.module.css": "/website/static/media/mainbackground.df6388bf.jpg",
+    "static/media/AboutPage.module.css": "/website/static/media/realdiamond.fb7ed965.JPG"
   }
 }
