@@ -17,10 +17,9 @@ class MainHeader extends Component {
                     <Header className={classes['header-color']}>
                         <Navigation className={classes['header-links']}>
                             <Link className="nav-1" to="/website"><i className="fa fa-home" aria-hidden="true" /></Link>
-                            <Link className="nav-2" to="/website/aboutme">About</Link>
                             <Link className="nav-3" to="/website/projects">Projects</Link>
-                            <a href="mailto:chatim.yash@yahoo.co.uk">Contact</a>
-                            <a href={Pdf} target="_blank" rel="noopener noreferrer">View CV</a>
+                            <a href={Pdf} target="_blank" rel="noopener noreferrer">CV</a>
+                            <a href="mailto:chatim.yash@yahoo.co.uk">Email Me</a>
                             {/* Link - allow to navigate around the app by rendering fully accessible anchor tag with proper href */}
                         </Navigation>
                     </Header>
@@ -28,10 +27,9 @@ class MainHeader extends Component {
                         {/* Drawer - provide access to destinations in the app */}
                         <Navigation className="navbar">
                             <Link className="nav-1" to="/website">Home</Link>
-                            <Link className="nav-2" to="/website/aboutme">About</Link>
                             <Link className="nav-3" to="/website/projects">Projects</Link>
-                            <a href="mailto:chatim.yash@yahoo.co.uk">Contact</a>
-                            <a href={Pdf} target="_blank" rel="noopener noreferrer">View CV</a>
+                            <a href={Pdf} target="_blank" rel="noopener noreferrer">CV</a>
+                            <a href="mailto:chatim.yash@yahoo.co.uk">Email Me</a>
                         </Navigation>
                     </Drawer>
                     <Content>
