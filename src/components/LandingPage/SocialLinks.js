@@ -16,7 +16,7 @@ class SocialLinks extends Component {
                     )}
                 </div>
                 <div className={classes['contact-info']}>
-                    <i className="fa fa-mobile" aria-hidden="true" /> (+44) 7507704668
+                    <i className="fa fa-mobile" aria-hidden="true" /> (+91) 9284493944
                     <i className="fa fa-envelope" aria-hidden="true" /> chatim.yash@yahoo.co.uk
                 </div>
             </Fragment>
